@@ -10,6 +10,18 @@
   "author": "Lawrence <lawrence@acode.ninja>",
   "license": "ISC",
   "dependencies": {
-    "octokit": "^3.0.0"
+    "@nlpjs/basic": "^4.27.0",
+    "axios": "^1.4.0",
+    "franc": "^6.1.0",
+    "fs-extra": "^11.1.1",
+    "lodash": "^4.17.21",
+    "mime-types": "^2.1.35",
+    "node-nlp": "^4.27.0",
+    "oauth-v2-client": "^1.2.1",
+    "octokit": "^3.0.0",
+    "open": "^9.1.0",
+    "protocol-registry": "^1.4.0",
+    "sharp": "^0.32.3",
+    "tesseract.js": "^4.1.1"
   }
 }

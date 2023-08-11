@@ -1,0 +1,20 @@
+<% if ((reference.authors || []).length) { %># Authors
+
+<%= reference.authors.map(a => `- [[Academic/Authors/${[a.first_name, a.last_name].filter(n => !!n).join(' ')}]]`).join('\n') %>
+<% } %>
+<% if ((reference.keywords || []).length) { %># Keywords
+
+<%= reference.keywords.map(k => `#Subjects/${k.replace(/\s/g, '')}`).join(' ') %>
+<% } %>
+<% if (Object.keys(reference.identifiers || {}).length) { %># Identifiers
+
+<%= Object.entries(reference.identifiers).map(([type, value]) => `- **${type.toUpperCase()}**: ${value}`).join('\n') %>
+<% } %>
+<% if (reference.abstract) { %># Abstract
+
+> <%= reference.abstract %>
+<% } %>
+<% if ((reference.files || []).length) { %># Files
+
+<%= reference.files.map(f => `![[Academic/References/${f}]]`).join('\n') %>
+<% } %>

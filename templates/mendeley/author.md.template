@@ -1,0 +1,8 @@
+# Information
+
+
+
+# Encountered
+
+<% for (const reference of author.references) { %>- Wrote [[<%= reference.path %>]]
+<% } %>

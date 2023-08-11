@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Equity, diversity and inclusion a call to eradicate non-inclusive terms from the life sciences",
+    "type": "journal",
+    "authors": [
+      {
+        "first_name": "Aziz",
+        "last_name": "Khan"
+      }
+    ],
+    "year": 2021,
+    "source": "eLife",
+    "identifiers": {
+      "pui": "2006139091",
+      "issn": "2050084X",
+      "pmid": "33556000",
+      "scopus": "2-s2.0-85101369258",
+      "doi": "10.7554/ELIFE.65604",
+      "sgr": "85101369258"
+    },
+    "id": "5b8c40ae-647e-3d4e-9b76-5dfa077e8f62",
+    "created": "2023-07-03T07:52:16.637Z",
+    "profile_id": "ac601204-39d4-3286-b98a-687a338717d8",
+    "last_modified": "2023-07-25T07:45:31.890Z",
+    "abstract": "Since the Black Lives Matter movement rose to mainstream prominence, the academic enterprise has started recognizing the systematic racism present in science. However, there have been relatively few efforts to make sure that the language used to communicate science is inclusive. Here, I quantify the number of research articles published between 2000 and 2020 that contained non-inclusive terms with racial connotations, such as “blacklist” and “whitelist”, or “master” and “slave”. This reveals that non-inclusive language is being increasingly used in the life sciences literature, and I urge the global academic community to expunge these archaic terms to make science inclusive for everyone."
+  }
+]

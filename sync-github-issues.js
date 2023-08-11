@@ -4,12 +4,13 @@ import {Octokit} from "octokit";
 import {writeFile, mkdir} from "fs/promises";
 import {dirname, resolve} from "path";
 import {fileURLToPath} from 'url';
-import {dateToISO} from "./formatters.js";
+import {dateToISO} from "./util/formatters.js";
+import {getUnderscoreGlobals, loadEnvironment} from "./util/environment.js";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const [__filename, __dirname] = getUnderscoreGlobals(import.meta.url);
 
 export const syncGithubIssues = async () => {
+    await loadEnvironment();
     const octokit = new Octokit({
         auth: process.env['GITHUB_TOKEN'],
     });
